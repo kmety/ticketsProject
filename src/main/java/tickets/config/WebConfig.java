@@ -1,4 +1,5 @@
 package tickets.config;
+/*
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -14,42 +15,47 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("tickets")
-public class WebConfig implements WebMvcConfigurer {
+@ComponentScan("tickets")*/
+public class WebConfig {}
+		/*implements WebMvcConfigurer {
 
 	@Autowired
-	private ApplicationContext applicationContext;
+	private ApplicationContext applicationContext;*/
 
-	/*
-	 * STEP 1 - Create SpringResourceTemplateResolver
-	 */
-	@Bean
+
+
+	  //STEP 1 - Create SpringResourceTemplateResolver
+
+
+	/*@Bean
 	public SpringResourceTemplateResolver templateResolver() {
 		SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
 		templateResolver.setApplicationContext(applicationContext);
 		templateResolver.setPrefix("/WEB-INF/views/");
 		templateResolver.setSuffix(".html");
 		return templateResolver;
-	}
+	}*/
 
-	/*
-	 * STEP 2 - Create SpringTemplateEngine
-	 */
-	@Bean
+	 // STEP 2 - Create SpringTemplateEngine
+
+
+	/*@Bean
 	public SpringTemplateEngine templateEngine() {
 		SpringTemplateEngine templateEngine = new SpringTemplateEngine();
 		templateEngine.setTemplateResolver(templateResolver());
 		templateEngine.setEnableSpringELCompiler(true);
 		return templateEngine;
-	}
+	}*/
 
-	/*
-	 * STEP 3 - Register ThymeleafViewResolver
-	 */
-	public void configureViewResolvers(ViewResolverRegistry registry) {
+
+	  //STEP 3 - Register ThymeleafViewResolver
+
+
+	/*public void configureViewResolvers(ViewResolverRegistry registry) {
 		ThymeleafViewResolver resolver = new ThymeleafViewResolver();
 		resolver.setTemplateEngine(templateEngine());
 		registry.viewResolver(resolver);
 	}
 
-}
+}*/
+

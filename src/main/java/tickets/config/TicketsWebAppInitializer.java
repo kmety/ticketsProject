@@ -1,8 +1,9 @@
 package tickets.config;
 
-import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+//import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class TicketsWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
+public class TicketsWebAppInitializer {}
+        /*extends AbstractAnnotationConfigDispatcherServletInitializer{
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
@@ -19,4 +20,4 @@ public class TicketsWebAppInitializer extends AbstractAnnotationConfigDispatcher
         return new String[] {"/"};
     }
 
-}
+}*/

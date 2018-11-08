@@ -1,5 +1,5 @@
 package tickets.config;
-
+/*
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,10 +17,10 @@ import javax.sql.DataSource;
 @Configuration
 @ComponentScan(basePackages= {"tickets"},
 excludeFilters= {@Filter(type=FilterType.ANNOTATION,
-						value=EnableWebMvc.class)})
-public class RootConfig {
+						value=EnableWebMvc.class)})*/
+public class RootConfig {}
 
-	@Autowired
+	/*@Autowired
 	DataSource dataSource;
 
 	@Bean
@@ -39,4 +39,4 @@ public class RootConfig {
 			.build();
 		return db;
 	}
-}
+}*/
